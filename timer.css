@@ -1,0 +1,30 @@
+body {
+    background-image: url('https://images.macrumors.com/t/TkNh1oQ0-9TnnBjDnLyuz6yLkjE=/1600x0/article-new/2023/09/iPhone-15-General-Feature-Black.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: whitesmoke;
+}
+
+.countdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.unit {
+    flex: 2;
+    text-align: center;
+}
+
+.unit span {
+    font-size: 3em;
+    font-weight: bolder;
+    color: pink;
+}
+
+.unit p {
+    font-size: 2em;
+    color: grey;
+}
