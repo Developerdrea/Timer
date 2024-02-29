@@ -1,30 +1,50 @@
-body {
-    background-image: url('https://images.macrumors.com/t/TkNh1oQ0-9TnnBjDnLyuz6yLkjE=/1600x0/article-new/2023/09/iPhone-15-General-Feature-Black.jpg');
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    color: whitesmoke;
-}
-
-.countdown {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 40px;
-}
-
-.unit {
-    flex: 2;
-    text-align: center;
-}
-
-.unit span {
-    font-size: 3em;
-    font-weight: bolder;
-    color: pink;
-}
-
-.unit p {
-    font-size: 2em;
-    color: grey;
-}
+    body {
+        background-image: url('https://secretsfromportugal.com/wp-content/uploads/2019/03/Best-Luxury-Stores-To-Be-Discovered-In-Porto-8.jpg');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        color: whitesmoke;
+    }
+    
+    h1 {
+        text-emphasis: none;
+        font-style: italic;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    #countdown {
+        margin: 10px;
+        padding: auto;
+        border: 15px;
+        border-color: black;
+        border-width: 5px;
+    }
+    
+    .get {
+        background-color: rgba(14, 14, 14, 0.596);
+        float: right;
+        display: block;
+        color: palevioletred;
+        text-align: center;
+        padding: 14px 15px 16px 20px;
+        text-decoration: wavy;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: italic;
+    }
+    
+    .get a:hover {
+        background-color: beige;
+        color: gray;
+    }
+    
+    .text {
+        font-size: 3vh;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: italic;
+        color: rgba(245, 245, 245, 0.911);
+    }
+    
+    .time {
+        color: pink;
+        size: 3rem;
+    }

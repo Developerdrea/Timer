@@ -1,9 +1,9 @@
 //Script
 
 const daysElement = document.getElementById("days")
-const daysElement = document.getElementBuId("hours")
-const daysElement = document.getElementById("minutes")
-const daysElement = document.getElementById("seconds")
+const hoursElement = document.getElementById("hours")
+const minutesElement = document.getElementById("minutes")
+const secondsElement = document.getElementById("seconds")
 
 //Set the desired deadline date and time
 const deadline = new Date("2024-03-20T23:59:59");
@@ -25,3 +25,5 @@ const formattedDays = days.toString().padStart(2, "0");
 const formattedHours = hours.toString().padStart(2, "0");
 const formattedMinutes = minutes.toString().padStart(2, "0");
 const formattedSeconds = seconds.toString().padStart(2, "0");
+
+//Update the count
